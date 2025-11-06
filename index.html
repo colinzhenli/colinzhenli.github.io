@@ -21,14 +21,16 @@
                 <p class="name" style="text-align: center;">
                   Zhen (Colin) Li
                 </p>
-                <p>Hello, I am Zhen(Colin) Li , an MSc thesis student at the <a href="https://gruvi.cs.sfu.ca/">GrUVi Lab</a> of <a href="https://www.sfu.ca">SFU</a>, under the supervision of Prof. <a href="https://taiya.github.io/">Andrea Tagliasacchi</a>. I obtained my bachelor’s degree of the dual degree program between <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> and <a href="https://www.sfu.ca">Simon Fraser University</a>, majoring in computer science.</p>
-                <p>My research interests lie in 3D computer vision and computer graphics. Previously, I was fortunate to work with Prof. <a href="https://msavva.github.io/">Manolis Savva</a>.</p>
+                <p style="text-align:justify">Hello, I am Zhen(Colin) Li , an MSc thesis student at the <a href="https://gruvi.cs.sfu.ca/">GrUVi Lab</a> of <a href="https://www.sfu.ca">SFU</a>, under the supervision of Prof. <a href="https://taiya.github.io/">Andrea Tagliasacchi</a>. I obtained my bachelor's degree of the dual degree program between <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> and <a href="https://www.sfu.ca">Simon Fraser University</a>, majoring in computer science.</p>
+                <p style="text-align:justify">My research interests lie in 3D computer vision and computer graphics. My current research focuses on material capture pipelines, including novel BRDF modeling. Before this, I was working on large scene reconstruction.</p>
 
                 <p>
                   
                 </p>
                 <p style="text-align:center">
                   colin_li_2-{at}-sfu-[dot]-ca &nbsp;/&nbsp;
+                  <a href="pdfs/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=eHZzqf4AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/colinzhenli">Github</a>
                 </p>
               </td>
@@ -40,11 +42,41 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
+                <h2>Publications</h2>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+<tr>
+  <td style="padding:10px;width:25%;vertical-align:middle">
+    <div class="one">
+      <video width="120%" height="120%" muted autoplay loop>
+        <source src="videos/3D Gaussian Flats.mp4" type="video/mp4">
+      </video>
+    </div>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <span class="papertitle"><a href="https://theialab.github.io/3dgs-flats/">3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction</a></span>
+    <br>
+  Maria Taktasheva,
+  Lily Goli,
+  Alessandro Fiorini,
+  Zhen (Colin) Li,
+  Daniel Rebain,
+  Andrea Tagliasacchi
+
+    <br>
+    <a href="https://arxiv.org/abs/2509.16423">Paper</a>
+    /
+    <a href="https://github.com/theialab/3dgs-flats">Code</a>
+    <br>
+    <p></p>
+    <p>
+      3D Gaussian Splatting with planar constraints for improved scene reconstruction. Enables high-quality rendering and meshing of 3D scenes.
+    </p>
+  </td>
+</tr>
 
 <tr>
   <td style="padding:10px;width:25%;vertical-align:middle">
@@ -56,9 +88,7 @@
     </div>
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
-    <span class="papertitle"><a href="https://arxiv.org/abs/2502.12534">NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization</a></span>
-</span>
-    </a>
+    <span class="papertitle"><a href="https://theialab.github.io/noksr/">NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization</a></span>
     <br>
   Zhen Li,
 	<a href="https://wsunid.github.io/">Weiwei Sun</a>,
@@ -69,45 +99,18 @@
   <a href="https://taiya.github.io/">Andrea Tagliasacchi</a>
 
     <br>
-	<em>3D Vision (3DV) 2025<em>
+	<em>3D Vision (3DV) 2025</em>
+    <br>
+    <a href="https://arxiv.org/abs/2502.12534">Paper</a>
+    /
+    <a href="https://github.com/theialab/noksr">Code</a>
     <br>
     <p></p>
     <p>
-      We propose a multi-scale, point-based surface reconstruction method that leverages point cloud serialization for fast neighbor approximation. We remove the kernels from Neural Kernel Surface Reconstruction (NKSR), and our method achieves state-of-the-art performance in both quality and efficiency.
+     A kernel-free neural surface reconstruction method that leverages point cloud serialization for fast neighbor approximation.
     </p>
   </td>
 </tr>          
-
-    <tr onmouseout="camp_stop()" onmouseover="camp_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/Ca3DPose.png' width="180">
-        </div>
-        <script type="text/javascript">
-          function camp_start() {
-            document.getElementById('camp_image').style.opacity = "1";
-          }
-
-          function camp_stop() {
-            document.getElementById('camp_image').style.opacity = "0";
-          }
-          camp_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="pdfs/Ca3DPose.pdf" target="_blank">Ca3DPose: Canonical 3D Pose Estimation via Object-Level Classifications</a>
-      </span>
-    </a>
-    <br>
-    Zhen Li, 
-    Manolis Savva
-        <br>
-        <a href="https://github.com/colinzhenli/Ca3DPose">github page</a>
-        <p>
-        Estimating canonical 3d pose via object-level classification.
-        </p>
-      </td>
-    </tr>
        
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
